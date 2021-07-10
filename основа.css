@@ -1,0 +1,785 @@
+body {
+    width: 97%;
+    height: 100%;
+    background-image: url(characters/raid-video.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    -webkit-user-select: none;
+
+}
+
+#name {
+    width: 650px;
+    height: 300px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    background-image: url(characters/название.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+/* About The Combat Clan */
+
+
+
+#about {
+    background: rgba(0, 0, 0, 0.479);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#modal {
+    width: 1100px;
+    height: 800px;
+    text-align: center;
+    padding: 15px;
+
+    margin: auto;
+    background-image: url(characters/1.png);
+    background-repeat: no-repeat;
+    background-size: 1100px;
+    background-position-y: -130px;
+    background-position-x: 20px;
+}
+
+.hi {
+    width: 500px;
+    margin-left: 340px;
+    margin-top: 313px;
+}
+
+.hi p {
+    font-family: 'Rochester', cursive;
+    font-weight: 300;
+    font-size: 25px;
+    word-wrap: break-word;
+}
+
+#about:target {
+    display: block;
+}
+
+.close {
+    display: inline-block;
+    padding: 15px 70px;
+    margin: 10px;
+    margin-left: 55px;
+    text-decoration: none;
+    background-image: url(characters/buttonStock1h.png);
+    background-size: 200px;
+    color: rgb(177, 177, 177);
+    font-size: 25px;
+    cursor: pointer;
+    background-position-y: -34px;
+}
+
+.close:hover {
+    background-image: url(characters/buttonStock1h.png) !important;
+    background-size: 200px;
+    background-position-y: -34px;
+    filter: brightness(70%);
+}
+
+.href {
+    width: 500px;
+    height: 70px;
+    position: relative;
+    top: 800px;
+    right: 500px;
+
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+
+#href {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(224, 196, 37);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-family: 'Cinzel', serif;
+    margin: 0 auto;
+
+
+}
+
+
+
+/* buttons */
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 850px;
+    background-image: url(characters/бумага.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+.buttons h1 {
+    margin: 0 auto;
+    margin-top: 130px;
+    font-family: 'Ruthie', cursive;
+    font-size: 60px;
+}
+
+.menu {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffffff00;
+    background-image: url(characters/рамка.png);
+    background-size: 320px 65px;
+    color: #000000;
+    font-family: 'Rochester', cursive;
+    font-weight: 300;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: 320px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 185px;
+}
+
+.menu span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.menu span::after {
+    content: '\00bb';
+    color: black;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.menu:hover span {
+    padding-right: 25px;
+}
+
+.menu:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+/* characteristics */
+
+
+
+#block {
+    background: rgba(0, 0, 0, 0.479);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#modalmenu {
+    width: 1200px;
+    height: 750px;
+    text-align: center;
+    padding: 15px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-image: url(characters/Site.png);
+    background-size: 1260px;
+    background-repeat: no-repeat;
+}
+
+#block:target {
+    display: block;
+}
+
+
+
+
+.close2 {
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    left: 558px;
+    bottom: 39px;
+    margin: 10px;
+    margin-left: 55px;
+    text-decoration: none;
+    background-image: url(characters/Изображение_Путеводный_крест.png);
+    background-size: 100px;
+    background-position-y: -10;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.girl {
+    position: relative;
+    bottom: 88px;
+    right: 235px;
+    height: 74%;
+}
+
+.characteristics {
+    width: 500px;
+    position: relative;
+    bottom: 600px;
+    left: 700px;
+}
+
+.characteristics p {
+    font-size: 28px;
+    text-align: start;
+    margin-bottom: 70px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+/* map */
+
+
+
+#map {
+    background: rgba(0, 0, 0, 0.479);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#imgmap {
+    width: 1156px;
+    height: 848px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#map:target {
+    display: block;
+}
+
+.close3 {
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    left: 1460px;
+    margin: 10px;
+    margin-left: 55px;
+    text-decoration: none;
+    background-image: url(characters/Изображение_Путеводный_крест.png);
+    background-size: 100px;
+    background-position-y: -10;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+
+/* villians */
+
+
+
+#blockvillains {
+    background: rgba(0, 0, 0, 0.479);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#modalvillains {
+    width: 1200px;
+    height: 750px;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-image: url(characters/Site.png);
+    background-size: 1260px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#blockvillains:target {
+    display: block;
+}
+
+.villain1 {
+    width: 24%;
+    position: relative;
+    right: 174px;
+    bottom: 7px;
+}
+
+.dragon1 {
+    width: 22%;
+    position: relative;
+    left: -272px;
+    bottom: -34px;
+    transform: scaleX(-1);
+}
+
+.characteristics2 {
+    width: 400px;
+    height: 300px;
+    font-size: 24px;
+    text-align: start;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    left: 359px;
+    bottom: 494px;
+}
+
+.villain2 {
+    width: 77%;
+    position: relative;
+    left: 236px;
+    bottom: 135px;
+}
+
+.dragon2 {
+    width: 72%;
+    transform: scaleX(-1);
+    position: relative;
+    left: 462px;
+    bottom: 375px;
+}
+
+
+.characteristics3 {
+    font-size: 24px;
+    text-align: start;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    left: 531px;
+    bottom: 910px;
+}
+
+.next {
+    padding: 50px;
+    position: relative;
+    left: 719px;
+    bottom: 917px;
+    margin: 10px;
+    margin-left: 55px;
+    text-decoration: none;
+    background-image: url(characters/next.png);
+    background-size: 100px;
+    background-position-y: -10;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#blockvillains2 {
+    background: rgba(0, 0, 0, 0.479);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#blockvillains2:target {
+    display: block;
+}
+
+.villain3 {
+    width: 28%;
+    position: relative;
+    right: 21px;
+    bottom: 57px;
+
+}
+
+.dragon3 {
+    width: 39%;
+    position: relative;
+    left: 108px;
+    bottom: 30px;
+}
+
+
+.characteristics4 {
+    font-size: 26px;
+    text-align: start;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    bottom: 550px;
+    left: 700px;
+}
+
+#modalvillains2 {
+    width: 1200px;
+    height: 750px;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-image: url(characters/Site.png);
+    background-size: 1260px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.back {
+    padding: 50px;
+    position: relative;
+    right: 700px;
+    bottom: 20px;
+    text-decoration: none;
+    background-image: url(characters/back.png);
+    background-size: 100px;
+    background-position-y: -10;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#book {
+    background: rgba(0, 0, 0, 0.479);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#book:target {
+    display: block;
+}
+
+#modalbook {
+    width: 37%;
+    height: 96%;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-image: url(characters/book.png);
+    background-size: 712px;
+    background-repeat: no-repeat;
+}
+
+.closebook {
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    left: 200px;
+    top: 8px;
+    opacity: 82%;
+    margin: 10px;
+    margin-left: 55px;
+    text-decoration: none;
+    background-image: url(characters/forbook.png);
+    background-size: 141px;
+    background-position-y: -10;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.nextbook {
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    left: 225px;
+    top: 250px;
+    opacity: 82%;
+    margin: 10px;
+    margin-left: 55px;
+    text-decoration: none;
+    background-image: url(characters/forbook2.png);
+    background-size: 100px;
+    background-position-y: -10;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+
+/*dragons shop  */
+
+
+
+#page1 {
+    background: rgba(0, 0, 0, 0.479);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#modalpage1 {
+    width: 1310px;
+    height: 782px;
+    text-align: center;
+    padding: 15px;
+    background-image: url(characters/bookopen.png);
+    background-size: 1414px;
+    background-position-x: -31px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#page1:target {
+    display: block;
+}
+
+.closebook1 {
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    bottom: 2002px;
+    left: 569px;
+    opacity: 82%;
+    margin: 10px;
+    margin-left: 55px;
+    text-decoration: none;
+    background-image: url(characters/forbook.png);
+    background-size: 141px;
+    background-position-y: -10;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.nextbook1 {
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    bottom: 1782px;
+    right: 600px;
+    opacity: 82%;
+    margin: 10px;
+    margin-left: 55px;
+    text-decoration: none;
+    background-image: url(characters/forbook2.png);
+    background-size: 100px;
+    background-position-y: -10;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transform: scaleX(-1);
+}
+
+#inshop {
+
+    width: 700px;
+    height: 600px;
+    background-image: url(characters/shopman.png);
+    background-size: 800px;
+    position: relative;
+    left: 631px;
+    bottom: 1123px;
+
+}
+
+
+.welcome {
+    width: 348px;
+    font-family: 'Rochester', cursive;
+    font-weight: 300;
+    font-size: 22px;
+    word-wrap: break-word;
+    position: relative;
+    top: 217px;
+    left: 85px;
+}
+
+#closeopen {
+    position: relative;
+    /* top: 96px; */
+    left: 300px;
+    bottom: 1253px;
+}
+
+
+#closere {
+    background-color: rgb(124, 0, 0);
+    color: rgba(255, 255, 255, 0.712);
+    border: 5px black double;
+}
+
+#openre {
+    background-color: rgb(124, 0, 0);
+    color: rgba(255, 255, 255, 0.712);
+    border: 5px black double;
+}
+
+.shopdragon1 {
+    width: 496px;
+    position: relative;
+    right: 256px;
+    top: 19px;
+}
+
+
+.magproMeraxes {
+    font-family: 'Rochester', cursive;
+    font-weight: 300;
+    font-size: 23px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.meraxes {
+    font-family: 'Rochester', cursive;
+    font-weight: 300;
+    font-size: 25px;
+    margin: 0;
+}
+
+.buy {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    border: 4px solid #af4c4c;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
+
+}
+
+.buy:hover {
+    background-color: #af4c4c;
+    color: white;
+}
+
+.shopdragon2 {
+    width: 533px;
+    position: relative;
+    right: 164px;
+    bottom: 83px;
+}
+
+.shopdragon3 {
+    width: 400px;
+    position: relative;
+    bottom: 824px;
+    left: 292px;
+}
+
+.chest {
+    position: fixed;
+    bottom: 690px;
+    left: 1460px;
+    width: 100px;
+}
+
+#winorlose,
+#winorlose2,
+#winorlose3 {
+    background: rgba(0, 0, 0, 0.479);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#battle1 {
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: rgba(255, 255, 255, 0);
+}
+
+#winorlose:target,
+#winorlose3:target {
+    display: block;
+}
+
+#winorlose2:target {
+    display: block;
+}
+
+.closebattle {
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    bottom: 640px;
+    left: 340px;
+    opacity: 82%;
+    margin: 10px;
+    margin-left: 55px;
+    text-decoration: none;
+    background-image: url(characters/forbook.png);
+    background-size: 141px;
+    background-position-y: -10;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

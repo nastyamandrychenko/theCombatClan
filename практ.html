@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Combat Clan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruthie&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="основа.css">
+
+
+</head>
+
+<body>
+    <div id="name"></div>
+
+
+
+    <!-- About The Combat Clan -->
+
+
+
+    <div id="about">
+        <div id="modal">
+            <div class="hi">
+                <p>
+                    Hi, <span id="user-name"></span>. I am Aelin, Queen of Terrasen, and I need your help. Erilea
+                    is attacked by the Valgi, and they intend to take over the entire world. If we do not have time,
+                    then they will enslave all people. You must defeat 3 main villains. Read more in the Villains menu.
+                    Buy a new dragon after each battle to increase your chances of winning. Good luck!
+                </p>
+            </div>
+            <div class="closemodal"> <a href="#" class="close">Close</a></div>
+        </div>
+    </div>
+    <div class="href"><a href="#about" id="href">About The Combat Clan</a></div>
+
+
+
+    <!-- buttons -->
+
+
+
+    <div class="buttons">
+        <h1>Menu</h1>
+        <div><button class="menu"><span><a style="color: black; text-decoration: none;" href="#book">Dragons
+                        Shop</a></span></button></div>
+
+        <div>
+            <button class="menu">
+                <span>
+                    <a style="color: black; text-decoration: none;" href="#block">Characteristics
+                    </a>
+                </span>
+            </button>
+        </div>
+        <div>
+            <button class="menu">
+                <span>
+                    <a style="color: black; text-decoration: none;" href="#blockvillains">Villains</a>
+                </span>
+            </button>
+        </div>
+        <div>
+            <button id="battleAmaranta" class="menu">
+                <span>
+                    <a style="color: black; text-decoration: none;" href="#winorlose">Battle with
+                        Amaranta
+                    </a>
+                </span>
+            </button>
+        </div>
+        <div>
+            <button id="battleKolmal" class="menu">
+                <span>
+                    <a style="color: black; text-decoration: none;" href="#winorlose2">Battle with Kolmal
+                    </a>
+                </span>
+            </button>
+        </div>
+        <div>
+            <button id="battleErawan" class="menu">
+                <span>
+                    <a style="color: black; text-decoration: none;" href="#winorlose3">Battle with Erawan
+                    </a>
+                </span>
+            </button>
+        </div>
+        <div>
+            <button class="menu">
+                <span>
+                    <a style="color: black; text-decoration: none;" href="#map">Map
+                    </a>
+                </span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <!-- characteristics -->
+
+
+
+    <div id="block">
+        <div id="modalmenu">
+            <div class="closemodal"> <a href="#" class="close2"></a></div>
+            <img class="girl" src="characters/девушка.png" alt="">
+            <div class="characteristics">
+                <p>NAME: <span id="user-name-second"></span></p>
+                <p>Magic protection: <span id="yourMagpro"></span></p>
+                <p>Lives: <span id="yourlives"></span></p>
+                <p>Cost: <span id="yourcost"></span> adarlans</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- map -->
+
+
+
+    <div id="map">
+        <img id="imgmap" src="characters/map.jpg" alt="map">
+        <div class="closemodal"></div><a href="#" class="close3"></a>
+    </div>
+    </div>
+
+
+
+    <!-- villains. page 1 -->
+
+
+
+    <div id="blockvillains">
+        <div id="modalvillains">
+            <div class="closemodal"> <a href="#" class="close2"></a></div>
+            <img class="villain1" src="characters/amaranta.png" alt="">
+            <img class="dragon1" src="characters/Drg_dioskouri_nn.gif" alt="">
+            <div class="characteristics2">
+                <p>NAME: <span id="amarantaName"></span></p>
+                <p>Magic protection: <span id="amarantaMagpro"><br> with dragon</span></p>
+                <p>Cost: <span id="amarantaCost"></span> adarlans <br>
+                    <span> Located in Adarlan</span>
+                </p>
+                <img class="villain2" src="characters/astrid.png" alt="">
+                <img class="dragon2" src="characters/207668.gif" alt="">
+                <div class="characteristics3">
+                    <p>NAME: <span id="kolmalName"></span></p>
+                    <p>Magic protection: <span id="kolmalMagpro"><br> with dragon</span></p>
+                    <p>Cost: <span id="kolmalCost"></span> adarlans <br>
+                        Located in Eyllwe</p>
+                </div>
+                <div class="closemodal"> <a href="#blockvillains2" class="next"></a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- villains. page 2 -->
+
+
+
+    <div id="blockvillains2">
+        <div id="modalvillains2">
+            <div> <a href="#" class="close2"></a></div>
+            <img class="villain3" src="characters/erawan.png" alt="">
+            <img class="dragon3" src="characters/Drg_basileus.gif" alt="">
+            <div class="characteristics4">
+                <p>NAME: <span id="erawanName"></span></p>
+                <p>Magic protection: <span id="erawanMagpro"><br> with dragon</span></p>
+                <p>Cost: <span id="erawanCost"></span> adarlans <br>
+                    Located in The Western Wastes</p>
+                <div> <a href="#blockvillains" class="back"></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="book">
+        <div id="modalbook">
+            <div> <a href="#" class="closebook"></a></div>
+            <div> <a href="#page1" class="nextbook"></a></div>
+        </div>
+    </div>
+
+
+
+    <!-- dragons shop -->
+
+
+
+    <div id="page1">
+        <div id="modalpage1">
+            <div>
+                <div style="
+            width: 230px;
+              position: relative;
+              top: 88px;
+              left: 267px;
+              ">
+                    <h2 class="meraxes">Meraxes</h2>
+                    <p class="magproMeraxes">Magic protection: +10; <span style="font-weight: 600;"><br>Cost: 50
+                            adarlans</span>
+                    </p>
+                </div>
+                <img class="shopdragon1" src="characters/Drg_cryzan_2.gif" alt="">
+                <button id="buyMeraxes" class="buy" style=" position: relative;
+                right: 334px;
+                bottom: 57px;
+               ">Buy Meraxes</button>
+            </div>
+            <div>
+                <div>
+                    <div style="
+                    width: 230px;
+                    position: relative;
+                    left: 273px;
+                    bottom: 45px;">
+                        <h2 class="meraxes">Ballerion</h2>
+                        <p class="magproMeraxes">Magic protection: +25; <span style="font-weight: 600;"><br> Cost: 100
+                                adarlans</span>
+                        </p>
+                    </div>
+                    <img class="shopdragon2" src="characters/Drg_kulan.gif" alt="">
+                    <button id="buyBallerion" class="buy" style="
+                         position: relative;
+                         right: 253px;
+                         bottom: 181px;
+
+                    ">Buy Ballerion</button>
+
+                    <img style="    width: 200px;
+                    position: relative;
+                    left: 130px;
+                    bottom: 150px;
+                    opacity: 90%;
+                    " src="characters/tree_8.png" alt="">
+                    <div>
+                        <div style="
+                        width: 230px;
+                        position: relative;
+                        left: 848px;
+                        bottom: 797px;
+                        ">
+                            <h2 class="meraxes">Terrax</h2>
+                            <p class="magproMeraxes">Magic protection: +40; <span style="font-weight: 600;"><br> Cost:
+                                    200
+                                    adarlans</span>
+                            </p>
+                        </div>
+                        <img class="shopdragon3" src="characters/Drg_fennrok_2.gif" alt="">
+                        <button id="buyTerrax" class="buy" style="
+                        position: relative;
+                        bottom: 855px;
+                        right: 74px;
+                        ">Buy Terrax</button>
+                    </div>
+                    <img class="chest" src="characters/chest.png" alt="">
+                    <button id="chest" style="width: 95px;
+                    height: 87px;
+                    position: fixed;
+                    bottom: 700px;
+                    right: 450px;
+                    background-color: rgba(107, 1, 1, 0);
+                    border: none;
+                    cursor: pointer;"></button>
+
+
+
+                    <div id="inshop">
+                        <div class="welcome">
+                            <p>
+                                Welcome to my dragon shop, buddy. I hope you find something for yourself here. If
+                                suddenly you
+                                do
+                                not have enough money to buy, then I will gladly make a discount. Click on the chest in
+                                the
+                                upper
+                                right corner and solve a couple of riddles to get extra money. I wish you the best in
+                                your next
+                                battles!
+                            </p>
+                        </div>
+
+                    </div>
+                    <div id="closeopen">
+                        <button id="closere">Close replica</button>
+                        <button id="openre">Open a replica</button>
+                    </div>
+                    <div> <a href="#" class="closebook1"></a></div>
+                    <div> <a href="#book" class="nextbook1"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- battles -->
+
+
+    <div id="winorlose">
+        <div id="battle1">
+            <img id="battlewhithamaranta" style="width: 1000px;" src="characters/Battle1.png" alt="battle1">
+            <div> <a href="#" class="closebattle"></a></div>
+        </div>
+    </div>
+
+    <div id="winorlose2">
+        <div id="battle1">
+            <img id="battlewhithkolmal" style="width: 1000px;" src="characters/Battle2.png" alt="battle2">
+            <div> <a href="#" class="closebattle"></a></div>
+        </div>
+    </div>
+
+    <div id="winorlose3">
+        <div id="battle1">
+            <img id="battlewhitherawan" style="width: 1000px;" src="characters/Battles3.png" alt="battle3">
+            <div> <a href="#" class="closebattle"></a></div>
+        </div>
+    </div>
+
+
+    <script src="практ.js"></script>
+</body>
+
+</html>
